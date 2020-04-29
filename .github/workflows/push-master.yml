@@ -1,9 +1,6 @@
 name: Publish Package
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches:
       - master
@@ -21,6 +18,7 @@ jobs:
       - name: Build Files
         run: |
           yarn
+          rm -rf dist
           yarn build
       - name: Commit IOS Files
         run: |
