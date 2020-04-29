@@ -1,0 +1,38 @@
+name: Publish Package
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  publish-gpr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+        #   registry-url: https://npm.pkg.github.com/
+        #   scope: "@jim-chien"
+      - name: Build Files
+        run: |
+          yarn
+          yarn build
+      - name: Commit IOS Files
+        run: |
+          git config --local user.email "developers@ebanx.com"
+          git config --local user.name "EBANX Dev Actions"
+          git add dist/ios-swift -f
+          git commit --amend --no-edit
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{secrets.PUBLISH_GITHUB_TOKEN}}
+          force: true
+      # - run: yarn publish
+      # env:
+      # NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}

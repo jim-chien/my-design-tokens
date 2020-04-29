@@ -1,0 +1,27 @@
+{
+  "name": "@jim-chien/my-design-tokens",
+  "version": "1.0.4",
+  "description": "Testing style dictionary",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/style-dictionary build",
+    "prepublishOnly": "yarn build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-chien/my-design-tokens.git"
+  },
+  "keywords": [
+    "design-tokens",
+    "css",
+    "multi-plataform"
+  ],
+  "author": "Jim Chien",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^2.8.3"
+  }
+}

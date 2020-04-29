@@ -1,0 +1,6 @@
+properties
+.gitignore
+config.json
+.github
+yarn.lock
+package-lock.json

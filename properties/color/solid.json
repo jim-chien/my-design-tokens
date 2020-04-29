@@ -1,0 +1,16 @@
+{
+  "color": {
+    "solid": {
+      "primary": { "value": "#00A3E0" },
+      "secondary": { "value": "#333F48" },
+      "dark": { "value": "#4C4B5E" },
+      "medium": { "value": "#9F9FAF" },
+      "light": { "value": "#C7C7D4" },
+      "extra-light": { "value": "#F2F2F9" },
+      "white": { "value": "#FFFFFF" },
+      "success": { "value": "#80DC8F" },
+      "error": { "value": "#D95757" },
+      "warning": {"value": "#FFD170"}
+    }
+  }
+}
