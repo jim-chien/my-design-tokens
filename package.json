@@ -1,6 +1,6 @@
 {
   "name": "@jim-chien/my-design-tokens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Testing style dictionary",
   "main": "index.js",
   "scripts": {
