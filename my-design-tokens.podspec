@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "my-design-tokens"
-  spec.version      = "1.0.13"
+  spec.version      = "1.0.14"
   spec.summary      = "Design tokens"
   spec.description  = <<-DESC
   Simple design tokens for android, ios and web.
