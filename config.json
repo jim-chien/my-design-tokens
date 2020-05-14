@@ -11,7 +11,7 @@
     },
     "android": {
       "transformGroup": "android",
-      "buildPath": "dist/android/",
+      "buildPath": "mylibrary/src/main/res/values/",
       "files": [{
         "destination": "font-variables.xml",
         "format": "android/fontDimens"

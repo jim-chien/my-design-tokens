@@ -4,3 +4,9 @@ config.json
 .github
 yarn.lock
 package-lock.json
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
+mylibrary
+gradle

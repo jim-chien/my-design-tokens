@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Thu, 14 May 2020 17:47:01 GMT
+-->
+<resources>
+  <color name="color_solid_primary">#ff00a3e0</color>
+  <color name="color_solid_secondary">#ff333f48</color>
+  <color name="color_solid_dark">#ff4c4b5e</color>
+  <color name="color_solid_medium">#ff9f9faf</color>
+  <color name="color_solid_light">#ffc7c7d4</color>
+  <color name="color_solid_extra_light">#fff2f2f9</color>
+  <color name="color_solid_white">#ffffffff</color>
+  <color name="color_solid_success">#ff80dc8f</color>
+  <color name="color_solid_error">#ffd95757</color>
+  <color name="color_solid_warning">#ffffd170</color>
+  
+</resources>
